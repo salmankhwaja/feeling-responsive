@@ -5,7 +5,7 @@ gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
-  gem "jekyll-asciidoc"
+  gem "jekyll-asciidoc", ">= 3.0.1"
 end
 
 gem 'asciidoctor', '~> 1.5.4'
